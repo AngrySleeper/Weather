@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Weather</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="header">
+      <form action="" class="search-form" id="search-form">
+        <input type="text" class="input-search input">
+        <button class="btn-search btn"><i class="fa fa-search"></i></button>
+      </form>
+      <a href="#" class="searchBtn" id="searchBtn"><i class="fa fa-search"></i></a>
+    </div>
+    <h1>Сегодняшняя погода: </h1>
+    <div class="weather" id="weather">
+      <div class="weatherIco">
+        <img class="weatherImg" src="" alt="">
+      </div>
+      <div class="temp">
+        <label class="t-min">Мин. <span class="temp-min"></span> &deg;C </label>
+        <label class="t-max">Макс. <span class="temp-max"></span> &deg;C </label>
+      </div>
+      <br><p class="rainy">Дождь: <span class="rain"></span></p>
+      <br><p>Влажность: <span class="humidity"></span> %</p>
+    <script src="js/weather.js"></script>
+  </body>
+</html>

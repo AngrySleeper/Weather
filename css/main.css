@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+body {
+  background: url("../img/sky.jpg") 0 0 / cover no-repeat;
+}
+.header {
+  display: flex;
+  width: auto;
+  height: 60px;
+  background: #3498db;
+  justify-content: flex-end;
+  align-items: center;
+}
+h1 {
+  margin: 20px 0 0 20px;
+  color: #fff;
+}
+.search-form {
+  visibility: hidden;
+  margin-right: 10px;
+}
+.input-search {
+  margin-right: 12px;
+  width: 400px;
+  height: 30px;
+  
+}
+.input {
+  font-size: 16px;
+}
+.btn-search {
+  margin-right: 12px;
+  border-color: #2F5BB7;
+  background: #357AE8;
+}
+.btn {
+  padding: 6px 27px;
+  border: 1px solid #666;
+  border-radius: 2px;
+}
+.searchBtn {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background: #3498db;
+  text-align: center;
+  line-height: 60px;
+  text-decoration: none;
+  list-style: none;
+  font-weight: bold;
+  font-family: Verdana;
+  color: #fff;
+}
+.fa {
+  color: #fff;
+}
+.searchBtn:hover {
+  background: #fff;
+  color: #000;
+}
+.searchBtn .fa:hover {
+  color: #000;
+}
+
+.weather {
+  position: absolute;
+  left: 42%;
+  top: 30%;
+  width: 250px;
+  height: 350px;
+  background: rgba(52, 152, 219, 0.4);
+  text-align: center;
+  border-radius: 10px;
+}
+.weatherIco {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.weatherImg {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.t-min, .t-max, .temp {
+  font-size: 20px;
+}
+.temp {
+  margin-bottom: 30px;
+}
+.rainy {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
